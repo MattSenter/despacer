@@ -6,7 +6,9 @@ import SwiftUI
 /// with the developer tools first; names and summaries are verbatim from
 /// mattsenter.com's `projects.data.ts` (as in CommandH), and each summary's
 /// translations from that site's `projects/locales/` (Localization/*.lproj).
-/// Links go to each site's root until the sites add `/from-despacer` landers.
+/// Senternet sites are linked at their `/from-despacer` lander (apps link to
+/// landers); CommandH, which has no site, and external-owned BeeReady and
+/// SeedMatrix at their root.
 /// Refresh this list when the lineup changes.
 struct OtherProjectsView: View {
     private struct Project: Identifiable {
@@ -23,28 +25,28 @@ struct OtherProjectsView: View {
                 url: "https://github.com/MattSenter/commandh", image: "commandh"),
         Project(name: "Weatherling",
                 summary: String(localized: "Rain, snow, and autumn leaves on your Mac desktop. Weather effects, not a weather app."),
-                url: "https://www.weatherling.app", image: "weatherling"),
+                url: "https://www.weatherling.app/from-despacer", image: "weatherling"),
         Project(name: "Burly",
                 summary: String(localized: "Every link, in the right browser profile."),
-                url: "https://www.burly.click", image: "burly"),
+                url: "https://www.burly.click/from-despacer", image: "burly"),
         Project(name: "Comoji",
                 summary: String(localized: "Slack-style :emoji: autocomplete, everywhere on your Mac."),
-                url: "https://www.comoji.io", image: "comoji"),
+                url: "https://www.comoji.io/from-despacer", image: "comoji"),
         Project(name: "Orgabot",
                 summary: String(localized: "Orchestrate the work, not just the agents."),
-                url: "https://www.orga.bot", image: "orgabot"),
+                url: "https://www.orga.bot/from-despacer", image: "orgabot"),
         Project(name: "Premail",
                 summary: String(localized: "Your inbox, defended."),
-                url: "https://www.premail.pro", image: "premail"),
+                url: "https://www.premail.pro/from-despacer", image: "premail"),
         Project(name: "Highwire",
                 summary: String(localized: "See beyond the headlines."),
-                url: "https://www.highwire.news", image: "highwire"),
+                url: "https://www.highwire.news/from-despacer", image: "highwire"),
         Project(name: "StockCar",
                 summary: String(localized: "A podcast of your portfolio, not the market."),
-                url: "https://www.stockcar.app", image: "stockcar"),
+                url: "https://www.stockcar.app/from-despacer", image: "stockcar"),
         Project(name: "Fix Siri",
                 summary: String(localized: "Hey Siri, do better. A sourced record of Siri failures and Apple’s promises."),
-                url: "https://www.fixsiri.com", image: "fixsiri"),
+                url: "https://www.fixsiri.com/from-despacer", image: "fixsiri"),
         // External-owned: always the root.
         Project(name: "BeeReady",
                 summary: String(localized: "Lifesaving skills, one game at a time."),
@@ -77,8 +79,8 @@ struct OtherProjectsView: View {
         }
     }
 
-    private static let introLinks = [(name: "Matt Senter", site: "https://www.mattsenter.com"),
-                                     (name: "Senternet", site: "https://www.senter.net")]
+    private static let introLinks = [(name: "Matt Senter", site: "https://www.mattsenter.com/from-despacer"),
+                                     (name: "Senternet", site: "https://www.senter.net/from-despacer")]
 
     /// The intro with Matt Senter and Senternet linked to their landers.
     private static var intro: AttributedString {

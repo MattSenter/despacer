@@ -1,9 +1,9 @@
 import Foundation
 
 /// Links from Despacer to other Senternet sites, tagged so each site can tell
-/// the visit came from this app. Senternet apps link to each site's
-/// `/from-<app>` lander; the sites have no `/from-despacer` lander yet, so every
-/// link goes to the site's root until they do.
+/// the visit came from this app. Senternet-owned sites are linked at their
+/// `/from-despacer` lander; CommandH (no site) and external ones (BeeReady,
+/// SeedMatrix) at the root.
 enum OutboundLink {
     static func url(_ base: String, campaign: String, content: String) -> URL? {
         guard var components = URLComponents(string: base) else { return nil }

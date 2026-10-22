@@ -8,7 +8,7 @@ struct BuiltByCredit: View {
     let content: String
 
     static func url(content: String) -> URL? {
-        OutboundLink.url("https://www.mattsenter.com", campaign: "built-by", content: content)
+        OutboundLink.url("https://www.mattsenter.com/from-despacer", campaign: "built-by", content: content)
     }
 
     var body: some View {
@@ -47,7 +47,7 @@ struct CopyrightLine: View {
             .accessibilityOpenLinkAction("Senternet LLC", url: Self.url)
     }
 
-    private static let url = OutboundLink.url("https://www.senter.net", campaign: "built-by", content: "settings")
+    private static let url = OutboundLink.url("https://www.senter.net/from-despacer", campaign: "built-by", content: "settings")
 
     private static var text: AttributedString {
         let parts = String(localized: "Copyright © 2026 %@", comment: "Copyright line. The argument is the company name, Senternet LLC, which links to its site.")
