@@ -1,0 +1,323 @@
+/*
+  Localizable.strings (Korean)
+  Despacer
+
+  Keys are the English source strings. SwiftUI literals (Text, Button, ...)
+  and String(localized:) look them up in Bundle.main. %@ is a string argument.
+
+  Do not translate: Despacer, Claude Code, Codex, Matt Senter, Senternet,
+  Senternet LLC, other app names (CommandH, Weatherling, Burly, Comoji,
+  Premail, Highwire, StockCar, Orgabot, Fix Siri, BeeReady, SeedMatrix),
+  Slack, :emoji:, Cmd+H, "Hey Siri, do better.", or keyboard glyphs such as ⌘.
+  Never use an em dash in a translation.
+
+  When a string names a macOS feature or place (menu bar, Applications folder,
+  login, System Settings, Paste from Other Apps), use Apple's official
+  localized name for it.
+
+  Every key here must exist in every other .lproj, and every string the app
+  shows must be a key here: scripts/check-localization.py enforces both.
+*/
+
+/* Text in the Preferences window. */
+"A podcast of your portfolio, not the market." = "시장이 아닌, 내 포트폴리오의 팟캐스트.";
+
+/* Settings sidebar tab and pane title. */
+"About" = "정보";
+
+/* Text in the Preferences window. */
+"About the developer" = "개발자 소개";
+
+/* Button in the file dialog that adds the chosen app. */
+"Add" = "추가";
+
+/* Title of the file dialog for choosing an app to watch. */
+"Add an App" = "앱 추가";
+
+/* Text in the Preferences window. */
+"Add any other app you copy commands from, like a code editor with a built-in terminal." = "터미널이 내장된 코드 편집기처럼, 명령어를 복사해 오는 다른 앱을 추가하세요.";
+
+/* Text in the Preferences window. */
+"Add App…" = "앱 추가…";
+
+/* Text in the Preferences window. */
+"Added by you" = "직접 추가한 앱";
+
+/* Credit line. The argument is the developer's name, Matt Senter, which links to his site. */
+"Built by %@" = "개발: %@";
+
+/* Text in the Preferences window. */
+"Built in" = "기본 제공";
+
+/* Text in the Preferences window. */
+"Claude Code and Codex break long commands across lines in the terminal, so they stop working when you copy and paste them. Despacer puts them back together as you copy." = "Claude Code와 Codex는 터미널에서 긴 명령어를 여러 줄로 나누기 때문에, 복사해서 붙여넣으면 작동하지 않습니다. Despacer는 복사하는 순간 이를 다시 하나로 이어 붙입니다.";
+
+/* App menu item on Cmd+Q: closes the window but Despacer keeps running. */
+"Close and Keep Running" = "닫고 계속 실행";
+
+/* App menu item (Cmd+W). */
+"Close Window" = "윈도우 닫기";
+
+/* Text in the Preferences window. */
+"Closing this window keeps Despacer running. While it's quit, copies aren't fixed." = "이 윈도우를 닫아도 Despacer는 계속 실행됩니다. 종료되어 있는 동안에는 복사한 내용이 수정되지 않습니다.";
+
+/* Text in the Preferences window. */
+"Cmd+H that works on the last app, so you can finally see your desktop." = "마지막 앱에서도 작동하는 Cmd+H. 이제 데스크탑이 보입니다.";
+
+/* Text in the Preferences window. */
+"Copied" = "복사됨";
+
+/* Text in the Preferences window. */
+"Copies the Despacer and system versions, handy for a support request." = "Despacer와 시스템 버전을 복사합니다. 지원을 요청할 때 유용합니다.";
+
+/* Edit menu item. */
+"Copy" = "복사하기";
+
+/* Text in the Preferences window. */
+"Copy Fixed" = "수정본 복사";
+
+/* Text in the Preferences window. */
+"Copy long commands from Claude Code and Codex, and paste them in one piece." = "Claude Code와 Codex의 긴 명령어를 복사해서 한 줄 그대로 붙여넣으세요.";
+
+/* Text in the Preferences window. */
+"Copy Original" = "원본 복사";
+
+/* Text in the Preferences window. */
+"Copy Version Info" = "버전 정보 복사";
+
+/* Copyright line. The argument is the company name, Senternet LLC, which links to its site. */
+"Copyright © 2026 %@" = "Copyright © 2026 %@";
+
+/* Text in the Preferences window. */
+"Despacer can read your copies" = "Despacer가 복사한 내용을 읽을 수 있습니다";
+
+/* Text in the Preferences window. */
+"Despacer can't read your copies, so nothing gets fixed. Set it to Allow in System Settings." = "Despacer가 복사한 내용을 읽을 수 없어서 아무것도 수정되지 않습니다. 시스템 설정에서 허용으로 설정하세요.";
+
+/* Text in the Preferences window. */
+"Despacer is designed, built, and shipped by Matt Senter, an independent developer who makes every Senternet product end to end." = "Despacer는 독립 개발자 Matt Senter가 설계하고 개발해 출시했습니다. 그는 모든 Senternet 제품을 처음부터 끝까지 직접 만듭니다.";
+
+/* Text in the Preferences window. */
+"Despacer is one of several products Matt Senter of Senternet designs, builds, and ships end to end. Here’s the rest of the lineup." = "Despacer는 Senternet의 Matt Senter가 설계부터 개발, 출시까지 직접 하는 여러 제품 중 하나입니다. 나머지 제품을 소개합니다.";
+
+/* Text in the Preferences window. */
+"Despacer only fixes text you copy while one of these apps is in front. Everything else you copy is left alone." = "Despacer는 이 앱 중 하나가 맨 앞에 있을 때 복사한 텍스트만 수정합니다. 그 밖에 복사한 내용은 건드리지 않습니다.";
+
+/* Settings window title. */
+"Despacer Preferences" = "Despacer 설정";
+
+/* Text in the Preferences window. */
+"Despacer reads what you copy so it can fix it. Newer versions of macOS let you decide which apps may do that." = "Despacer는 복사한 내용을 수정하기 위해 읽습니다. 최신 버전의 macOS에서는 이를 허용할 앱을 직접 정할 수 있습니다.";
+
+/* Text in the Preferences window. */
+"Despacer works entirely on your computer. It looks at the clipboard only when you copy from a terminal app, and to find exact originals it reads Claude Code and Codex session files on this computer. Nothing is saved, and nothing leaves your computer. No account, and no analytics." = "Despacer는 모든 작업을 컴퓨터 안에서만 처리합니다. 클립보드는 터미널 앱에서 복사할 때만 확인하며, 정확한 원본을 찾기 위해 이 컴퓨터에 있는 Claude Code와 Codex 세션 파일을 읽습니다. 아무것도 저장되지 않으며, 컴퓨터 밖으로 나가는 것도 없습니다. 계정도, 분석도 없습니다.";
+
+/* Edit menu title. */
+"Edit" = "편집";
+
+/* Text in the Preferences window. */
+"Every link, in the right browser profile." = "모든 링크를 알맞은 브라우저 프로필로.";
+
+/* Text in the Preferences window. */
+"Every variety, every trial, one clear comparison." = "모든 품종, 모든 시험, 하나의 명확한 비교.";
+
+/* Recent fixes: the copy was found word for word in session history. */
+"Exact match" = "정확히 일치";
+
+/* Text in the Preferences window. */
+"Finds the exact original in Claude Code and Codex session files on this computer, so the fix is never a guess." = "이 컴퓨터에 있는 Claude Code와 Codex 세션 파일에서 정확한 원본을 찾으므로, 추측으로 수정하는 일이 없습니다.";
+
+/* Text in the Preferences window. */
+"Fix terminal copies" = "터미널 복사 내용 수정";
+
+/* Menu bar menu checkbox that turns Despacer on or off. */
+"Fix Terminal Copies" = "터미널 복사 내용 수정";
+
+/* Settings sidebar tab and pane title: how copies are fixed. */
+"Fixing" = "수정";
+
+/* Status after an app name, e.g. 'Claude Code found': its session history exists on this computer. */
+"found" = "찾음";
+
+/* Text in the Preferences window. */
+"From the same workshop." = "같은 공방에서 만들었습니다.";
+
+/* Text in the Preferences window. */
+"Hey Siri, do better. A sourced record of Siri failures and Apple’s promises." = "Hey Siri, do better. Siri의 실패와 Apple의 약속을 출처와 함께 기록합니다.";
+
+/* App menu item (Cmd+H). */
+"Hide Despacer" = "Despacer 가리기";
+
+/* Text in the Preferences window. */
+"How copies are fixed" = "복사한 내용을 수정하는 방법";
+
+/* Text in the Preferences window. */
+"Kept in memory only, and gone when Despacer quits." = "메모리에만 보관되며, Despacer를 종료하면 사라집니다.";
+
+/* Text in the Preferences window. */
+"Lifesaving skills, one game at a time." = "생명을 구하는 기술, 한 경기씩.";
+
+/* Text in the Preferences window. */
+"macOS asks every time Despacer reads a copy. Set it to Allow in System Settings." = "Despacer가 복사한 내용을 읽을 때마다 macOS가 묻습니다. 시스템 설정에서 허용으로 설정하세요.";
+
+/* Text in the Preferences window. */
+"macOS may ask the first time Despacer reads a copy. Choose Allow." = "Despacer가 처음으로 복사한 내용을 읽을 때 macOS가 물어볼 수 있습니다. 허용을 선택하세요.";
+
+/* Text in the Preferences window. */
+"Match session history" = "세션 기록과 대조";
+
+/* Text in the Preferences window. */
+"Network activity" = "네트워크 활동";
+
+/* Text in the Preferences window. */
+"Never keeps, shares, or sends anything you copy." = "복사한 내용을 보관하거나 공유하거나 전송하지 않습니다.";
+
+/* Text in the Preferences window. */
+"No permission needed on this version of macOS" = "이 버전의 macOS에서는 권한이 필요하지 않습니다";
+
+/* Text in the Preferences window. */
+"None. Despacer never connects to the internet on its own. The links in these settings open in your browser." = "없음. Despacer는 스스로 인터넷에 연결하지 않습니다. 이 설정에 있는 링크는 브라우저에서 열립니다.";
+
+/* Status after an app name, e.g. 'Codex not found': no session history on this computer. */
+"not found" = "찾을 수 없음";
+
+/* Text in the Preferences window. */
+"Not installed" = "설치되지 않음";
+
+/* Text in the Preferences window. */
+"Nothing fixed yet. Copy a long command from Claude Code or Codex in your terminal, and it shows up here." = "아직 수정된 내용이 없습니다. 터미널에서 Claude Code나 Codex의 긴 명령어를 복사하면 여기에 표시됩니다.";
+
+/* Text in the Preferences window. */
+"On the web" = "온라인";
+
+/* VoiceOver action that opens a link in the text. The argument is the link's name, such as Senternet LLC or Matt Senter. */
+"Open %@" = "%@ 열기";
+
+/* Text in the Preferences window. */
+"Open at login" = "로그인 시 열기";
+
+/* Menu bar menu checkbox that starts Despacer at login. */
+"Open at Login" = "로그인 시 열기";
+
+/* Text in the Preferences window. */
+"Open System Settings…" = "시스템 설정 열기…";
+
+/* Text in the Preferences window. */
+"Orchestrate the work, not just the agents." = "에이전트만이 아니라 일 전체를 조율하세요.";
+
+/* Settings sidebar tab and pane title listing the developer's other apps. */
+"Other Projects" = "다른 프로젝트";
+
+/* Edit menu item. */
+"Paste" = "붙여넣기";
+
+/* Text in the Preferences window. */
+"Paste from Other Apps" = "다른 앱에서 붙여넣기";
+
+/* Settings sidebar tab and pane title. */
+"Permissions" = "권한";
+
+/* Text in the Preferences window. */
+"Play a sound" = "사운드 재생";
+
+/* Menu bar menu checkbox: play a short sound when a fixed copy is ready to paste. */
+"Play Sound When Fixed" = "수정 시 사운드 재생";
+
+/* Text in the Preferences window. */
+"Plays a short sound when a fixed copy is ready to paste." = "수정된 내용을 붙여넣을 준비가 되면 짧은 사운드를 재생합니다.";
+
+/* Menu item that opens the settings window (app menu and menu bar menu). */
+"Preferences…" = "설정…";
+
+/* Settings sidebar tab and pane title. */
+"Privacy" = "개인정보 보호";
+
+/* Text in the Preferences window. */
+"Puts the text back on the clipboard exactly as it was copied." = "텍스트를 복사한 그대로 클립보드에 되돌립니다.";
+
+/* Text in the Preferences window. */
+"Quit" = "종료";
+
+/* Text in the Preferences window. */
+"Quit Despacer" = "Despacer 종료";
+
+/* Text in the Preferences window. */
+"Rain, snow, and autumn leaves on your Mac desktop. Weather effects, not a weather app." = "Mac 데스크탑 위로 내리는 비, 눈, 낙엽. 날씨 앱이 아니라 날씨 효과입니다.";
+
+/* Text in the Preferences window. */
+"Re-check" = "다시 확인";
+
+/* Text in the Preferences window. */
+"Read the full privacy policy" = "개인정보 처리방침 전문 읽기";
+
+/* Text in the Preferences window. */
+"Reading Claude Code and Codex session files in your home folder needs no permission. Turn off Match session history under Fixing to stop it." = "홈 폴더에 있는 Claude Code와 Codex 세션 파일을 읽는 데는 권한이 필요하지 않습니다. 이를 중단하려면 수정에서 세션 기록과 대조를 끄세요.";
+
+/* Text in the Preferences window. */
+"Recent fixes" = "최근 수정";
+
+/* Text in the Preferences window. */
+"Rejoins lines that were clearly broken at the terminal's width, the moment you copy. Real multi-line scripts are left as they are." = "터미널 너비에서 확실히 끊긴 줄을 복사하는 순간 다시 잇습니다. 원래 여러 줄인 스크립트는 그대로 둡니다.";
+
+/* Text in the Preferences window. */
+"Remove" = "제거";
+
+/* Text in the Preferences window. */
+"Repair other wrapped text" = "다른 줄바꿈된 텍스트도 복구";
+
+/* Text in the Preferences window. */
+"Report an Issue" = "문제 보고";
+
+/* Text in the Preferences window. */
+"See beyond the headlines." = "헤드라인 너머를 보세요.";
+
+/* Text in the Preferences window. */
+"See Other Projects" = "다른 프로젝트 보기";
+
+/* Edit menu item. */
+"Select All" = "모두 선택";
+
+/* Text in the Preferences window. */
+"Session history" = "세션 기록";
+
+/* Text in the Preferences window. */
+"Show in menu bar" = "메뉴 막대에서 보기";
+
+/* Menu bar menu checkbox that shows or hides the menu bar icon. */
+"Show in Menu Bar" = "메뉴 막대에서 보기";
+
+/* Text in the Preferences window. */
+"Slack-style :emoji: autocomplete, everywhere on your Mac." = "Slack 스타일 :emoji: 자동 완성을 Mac 어디서나.";
+
+/* Text in the Preferences window. */
+"Source Code" = "소스 코드";
+
+/* Settings sidebar tab and pane title. Also the label of the system version row in About. */
+"System" = "시스템";
+
+/* Settings sidebar tab and pane title: which apps Despacer watches. */
+"Terminals" = "터미널";
+
+/* Text in the Preferences window. */
+"The last ten fixes are kept in memory so you can undo them, and are gone when Despacer quits." = "실행 취소할 수 있도록 최근 10개의 수정 내역을 메모리에 보관하며, Despacer를 종료하면 사라집니다.";
+
+/* Text in the Preferences window. */
+"To get back to these settings, open Despacer from your Applications folder." = "이 설정으로 돌아오려면 응용 프로그램 폴더에서 Despacer를 여세요.";
+
+/* Menu bar menu item: puts the last copy back on the clipboard exactly as it was copied. */
+"Undo Last Fix" = "마지막 수정 실행 취소";
+
+/* Text in the Preferences window. */
+"Used only for text you copy while a terminal app is in front." = "터미널 앱이 맨 앞에 있을 때 복사한 텍스트에만 사용됩니다.";
+
+/* Text in the Preferences window. */
+"Version" = "버전";
+
+/* Version row in About. The argument is the version and build, e.g. 1.0 (7). */
+"Version %@" = "버전 %@";
+
+/* Recent fixes: the copy was repaired by rejoining wrapped lines. */
+"Wrap rules" = "줄바꿈 규칙";
+
+/* Text in the Preferences window. */
+"Your inbox, defended." = "받은 편지함을 지킵니다.";

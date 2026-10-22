@@ -1,0 +1,323 @@
+/*
+  Localizable.strings (French)
+  Despacer
+
+  Keys are the English source strings. SwiftUI literals (Text, Button, ...)
+  and String(localized:) look them up in Bundle.main. %@ is a string argument.
+
+  Do not translate: Despacer, Claude Code, Codex, Matt Senter, Senternet,
+  Senternet LLC, other app names (CommandH, Weatherling, Burly, Comoji,
+  Premail, Highwire, StockCar, Orgabot, Fix Siri, BeeReady, SeedMatrix),
+  Slack, :emoji:, Cmd+H, "Hey Siri, do better.", or keyboard glyphs such as ⌘.
+  Never use an em dash in a translation.
+
+  When a string names a macOS feature or place (menu bar, Applications folder,
+  login, System Settings, Paste from Other Apps), use Apple's official
+  localized name for it.
+
+  Every key here must exist in every other .lproj, and every string the app
+  shows must be a key here: scripts/check-localization.py enforces both.
+*/
+
+/* Text in the Preferences window. */
+"A podcast of your portfolio, not the market." = "Un podcast de votre portefeuille, pas du marché.";
+
+/* Settings sidebar tab and pane title. */
+"About" = "À propos";
+
+/* Text in the Preferences window. */
+"About the developer" = "À propos du développeur";
+
+/* Button in the file dialog that adds the chosen app. */
+"Add" = "Ajouter";
+
+/* Title of the file dialog for choosing an app to watch. */
+"Add an App" = "Ajouter une app";
+
+/* Text in the Preferences window. */
+"Add any other app you copy commands from, like a code editor with a built-in terminal." = "Ajoutez toute autre app depuis laquelle vous copiez des commandes, comme un éditeur de code avec un terminal intégré.";
+
+/* Text in the Preferences window. */
+"Add App…" = "Ajouter une app…";
+
+/* Text in the Preferences window. */
+"Added by you" = "Ajoutées par vous";
+
+/* Credit line. The argument is the developer's name, Matt Senter, which links to his site. */
+"Built by %@" = "Créé par %@";
+
+/* Text in the Preferences window. */
+"Built in" = "Intégrées";
+
+/* Text in the Preferences window. */
+"Claude Code and Codex break long commands across lines in the terminal, so they stop working when you copy and paste them. Despacer puts them back together as you copy." = "Claude Code et Codex coupent les longues commandes sur plusieurs lignes dans le terminal, si bien qu’elles ne fonctionnent plus une fois copiées et collées. Despacer les reconstitue au moment où vous copiez.";
+
+/* App menu item on Cmd+Q: closes the window but Despacer keeps running. */
+"Close and Keep Running" = "Fermer sans quitter";
+
+/* App menu item (Cmd+W). */
+"Close Window" = "Fermer la fenêtre";
+
+/* Text in the Preferences window. */
+"Closing this window keeps Despacer running. While it's quit, copies aren't fixed." = "Fermer cette fenêtre ne quitte pas Despacer. Quand il est quitté, les copies ne sont pas corrigées.";
+
+/* Text in the Preferences window. */
+"Cmd+H that works on the last app, so you can finally see your desktop." = "Un Cmd+H qui fonctionne aussi sur la dernière app, pour enfin voir votre bureau.";
+
+/* Text in the Preferences window. */
+"Copied" = "Copié";
+
+/* Text in the Preferences window. */
+"Copies the Despacer and system versions, handy for a support request." = "Copie les versions de Despacer et du système, pratique pour une demande d’assistance.";
+
+/* Edit menu item. */
+"Copy" = "Copier";
+
+/* Text in the Preferences window. */
+"Copy Fixed" = "Copier la version corrigée";
+
+/* Text in the Preferences window. */
+"Copy long commands from Claude Code and Codex, and paste them in one piece." = "Copiez les longues commandes de Claude Code et Codex, et collez-les d’un seul tenant.";
+
+/* Text in the Preferences window. */
+"Copy Original" = "Copier l’original";
+
+/* Text in the Preferences window. */
+"Copy Version Info" = "Copier les infos de version";
+
+/* Copyright line. The argument is the company name, Senternet LLC, which links to its site. */
+"Copyright © 2026 %@" = "Copyright © 2026 %@";
+
+/* Text in the Preferences window. */
+"Despacer can read your copies" = "Despacer peut lire vos copies";
+
+/* Text in the Preferences window. */
+"Despacer can't read your copies, so nothing gets fixed. Set it to Allow in System Settings." = "Despacer ne peut pas lire vos copies, donc rien n’est corrigé. Choisissez Autoriser dans Réglages Système.";
+
+/* Text in the Preferences window. */
+"Despacer is designed, built, and shipped by Matt Senter, an independent developer who makes every Senternet product end to end." = "Despacer est conçu, développé et publié par Matt Senter, un développeur indépendant qui crée chaque produit Senternet de bout en bout.";
+
+/* Text in the Preferences window. */
+"Despacer is one of several products Matt Senter of Senternet designs, builds, and ships end to end. Here’s the rest of the lineup." = "Despacer fait partie des produits que Matt Senter, de Senternet, conçoit, développe et publie de bout en bout. Voici le reste de la gamme.";
+
+/* Text in the Preferences window. */
+"Despacer only fixes text you copy while one of these apps is in front. Everything else you copy is left alone." = "Despacer corrige uniquement le texte que vous copiez pendant qu’une de ces apps est au premier plan. Tout ce que vous copiez ailleurs reste intact.";
+
+/* Settings window title. */
+"Despacer Preferences" = "Réglages de Despacer";
+
+/* Text in the Preferences window. */
+"Despacer reads what you copy so it can fix it. Newer versions of macOS let you decide which apps may do that." = "Despacer lit ce que vous copiez pour pouvoir le corriger. Les versions récentes de macOS vous laissent choisir quelles apps peuvent le faire.";
+
+/* Text in the Preferences window. */
+"Despacer works entirely on your computer. It looks at the clipboard only when you copy from a terminal app, and to find exact originals it reads Claude Code and Codex session files on this computer. Nothing is saved, and nothing leaves your computer. No account, and no analytics." = "Despacer fonctionne entièrement sur votre ordinateur. Il ne regarde le presse-papiers que lorsque vous copiez depuis une app de terminal, et pour retrouver les originaux exacts, il lit les fichiers de session de Claude Code et Codex sur cet ordinateur. Rien n’est enregistré et rien ne quitte votre ordinateur. Aucun compte, aucune statistique d’utilisation.";
+
+/* Edit menu title. */
+"Edit" = "Édition";
+
+/* Text in the Preferences window. */
+"Every link, in the right browser profile." = "Chaque lien, dans le bon profil de navigateur.";
+
+/* Text in the Preferences window. */
+"Every variety, every trial, one clear comparison." = "Chaque variété, chaque essai, une comparaison claire.";
+
+/* Recent fixes: the copy was found word for word in session history. */
+"Exact match" = "Correspondance exacte";
+
+/* Text in the Preferences window. */
+"Finds the exact original in Claude Code and Codex session files on this computer, so the fix is never a guess." = "Retrouve l’original exact dans les fichiers de session de Claude Code et Codex sur cet ordinateur, pour que la correction ne soit jamais approximative.";
+
+/* Text in the Preferences window. */
+"Fix terminal copies" = "Corriger les copies du terminal";
+
+/* Menu bar menu checkbox that turns Despacer on or off. */
+"Fix Terminal Copies" = "Corriger les copies du terminal";
+
+/* Settings sidebar tab and pane title: how copies are fixed. */
+"Fixing" = "Correction";
+
+/* Status after an app name, e.g. 'Claude Code found': its session history exists on this computer. */
+"found" = "trouvé";
+
+/* Text in the Preferences window. */
+"From the same workshop." = "Du même atelier.";
+
+/* Text in the Preferences window. */
+"Hey Siri, do better. A sourced record of Siri failures and Apple’s promises." = "Hey Siri, do better. Un registre sourcé des ratés de Siri et des promesses d’Apple.";
+
+/* App menu item (Cmd+H). */
+"Hide Despacer" = "Masquer Despacer";
+
+/* Text in the Preferences window. */
+"How copies are fixed" = "Comment les copies sont corrigées";
+
+/* Text in the Preferences window. */
+"Kept in memory only, and gone when Despacer quits." = "Conservées uniquement en mémoire, et effacées quand vous quittez Despacer.";
+
+/* Text in the Preferences window. */
+"Lifesaving skills, one game at a time." = "Des gestes qui sauvent, un match à la fois.";
+
+/* Text in the Preferences window. */
+"macOS asks every time Despacer reads a copy. Set it to Allow in System Settings." = "macOS demande votre accord chaque fois que Despacer lit une copie. Choisissez Autoriser dans Réglages Système.";
+
+/* Text in the Preferences window. */
+"macOS may ask the first time Despacer reads a copy. Choose Allow." = "macOS peut demander votre accord la première fois que Despacer lit une copie. Choisissez Autoriser.";
+
+/* Text in the Preferences window. */
+"Match session history" = "Comparer à l’historique des sessions";
+
+/* Text in the Preferences window. */
+"Network activity" = "Activité réseau";
+
+/* Text in the Preferences window. */
+"Never keeps, shares, or sends anything you copy." = "Ne conserve, ne partage et n’envoie jamais rien de ce que vous copiez.";
+
+/* Text in the Preferences window. */
+"No permission needed on this version of macOS" = "Aucune autorisation nécessaire sur cette version de macOS";
+
+/* Text in the Preferences window. */
+"None. Despacer never connects to the internet on its own. The links in these settings open in your browser." = "Aucune. Despacer ne se connecte jamais à Internet de lui-même. Les liens de ces réglages s’ouvrent dans votre navigateur.";
+
+/* Status after an app name, e.g. 'Codex not found': no session history on this computer. */
+"not found" = "introuvable";
+
+/* Text in the Preferences window. */
+"Not installed" = "Non installée";
+
+/* Text in the Preferences window. */
+"Nothing fixed yet. Copy a long command from Claude Code or Codex in your terminal, and it shows up here." = "Rien n’a encore été corrigé. Copiez une longue commande de Claude Code ou Codex dans votre terminal, et elle apparaîtra ici.";
+
+/* Text in the Preferences window. */
+"On the web" = "Sur le web";
+
+/* VoiceOver action that opens a link in the text. The argument is the link's name, such as Senternet LLC or Matt Senter. */
+"Open %@" = "Ouvrir %@";
+
+/* Text in the Preferences window. */
+"Open at login" = "Ouvrir avec la session";
+
+/* Menu bar menu checkbox that starts Despacer at login. */
+"Open at Login" = "Ouvrir avec la session";
+
+/* Text in the Preferences window. */
+"Open System Settings…" = "Ouvrir Réglages Système…";
+
+/* Text in the Preferences window. */
+"Orchestrate the work, not just the agents." = "Orchestrer le travail, pas seulement les agents.";
+
+/* Settings sidebar tab and pane title listing the developer's other apps. */
+"Other Projects" = "Autres projets";
+
+/* Edit menu item. */
+"Paste" = "Coller";
+
+/* Text in the Preferences window. */
+"Paste from Other Apps" = "Coller depuis d’autres apps";
+
+/* Settings sidebar tab and pane title. */
+"Permissions" = "Autorisations";
+
+/* Text in the Preferences window. */
+"Play a sound" = "Émettre un son";
+
+/* Menu bar menu checkbox: play a short sound when a fixed copy is ready to paste. */
+"Play Sound When Fixed" = "Émettre un son après correction";
+
+/* Text in the Preferences window. */
+"Plays a short sound when a fixed copy is ready to paste." = "Émet un son bref quand une copie corrigée est prête à être collée.";
+
+/* Menu item that opens the settings window (app menu and menu bar menu). */
+"Preferences…" = "Réglages…";
+
+/* Settings sidebar tab and pane title. */
+"Privacy" = "Confidentialité";
+
+/* Text in the Preferences window. */
+"Puts the text back on the clipboard exactly as it was copied." = "Remet le texte dans le presse-papiers exactement tel qu’il a été copié.";
+
+/* Text in the Preferences window. */
+"Quit" = "Quitter";
+
+/* Text in the Preferences window. */
+"Quit Despacer" = "Quitter Despacer";
+
+/* Text in the Preferences window. */
+"Rain, snow, and autumn leaves on your Mac desktop. Weather effects, not a weather app." = "Pluie, neige et feuilles d’automne sur le bureau de votre Mac. Des effets météo, pas une app météo.";
+
+/* Text in the Preferences window. */
+"Re-check" = "Vérifier à nouveau";
+
+/* Text in the Preferences window. */
+"Read the full privacy policy" = "Lire la politique de confidentialité complète";
+
+/* Text in the Preferences window. */
+"Reading Claude Code and Codex session files in your home folder needs no permission. Turn off Match session history under Fixing to stop it." = "La lecture des fichiers de session de Claude Code et Codex dans votre dossier de départ ne nécessite aucune autorisation. Pour l’arrêter, désactivez Comparer à l’historique des sessions dans Correction.";
+
+/* Text in the Preferences window. */
+"Recent fixes" = "Corrections récentes";
+
+/* Text in the Preferences window. */
+"Rejoins lines that were clearly broken at the terminal's width, the moment you copy. Real multi-line scripts are left as they are." = "Recolle, dès la copie, les lignes clairement coupées à la largeur du terminal. Les vrais scripts sur plusieurs lignes restent tels quels.";
+
+/* Text in the Preferences window. */
+"Remove" = "Supprimer";
+
+/* Text in the Preferences window. */
+"Repair other wrapped text" = "Réparer les autres textes coupés";
+
+/* Text in the Preferences window. */
+"Report an Issue" = "Signaler un problème";
+
+/* Text in the Preferences window. */
+"See beyond the headlines." = "Voir au-delà des titres.";
+
+/* Text in the Preferences window. */
+"See Other Projects" = "Voir les autres projets";
+
+/* Edit menu item. */
+"Select All" = "Tout sélectionner";
+
+/* Text in the Preferences window. */
+"Session history" = "Historique des sessions";
+
+/* Text in the Preferences window. */
+"Show in menu bar" = "Afficher dans la barre des menus";
+
+/* Menu bar menu checkbox that shows or hides the menu bar icon. */
+"Show in Menu Bar" = "Afficher dans la barre des menus";
+
+/* Text in the Preferences window. */
+"Slack-style :emoji: autocomplete, everywhere on your Mac." = "Autocomplétion d’:emoji: façon Slack, partout sur votre Mac.";
+
+/* Text in the Preferences window. */
+"Source Code" = "Code source";
+
+/* Settings sidebar tab and pane title. Also the label of the system version row in About. */
+"System" = "Système";
+
+/* Settings sidebar tab and pane title: which apps Despacer watches. */
+"Terminals" = "Terminaux";
+
+/* Text in the Preferences window. */
+"The last ten fixes are kept in memory so you can undo them, and are gone when Despacer quits." = "Les dix dernières corrections sont conservées en mémoire pour que vous puissiez les annuler, et sont effacées quand vous quittez Despacer.";
+
+/* Text in the Preferences window. */
+"To get back to these settings, open Despacer from your Applications folder." = "Pour revenir à ces réglages, ouvrez Despacer depuis votre dossier Applications.";
+
+/* Menu bar menu item: puts the last copy back on the clipboard exactly as it was copied. */
+"Undo Last Fix" = "Annuler la dernière correction";
+
+/* Text in the Preferences window. */
+"Used only for text you copy while a terminal app is in front." = "Utilisée uniquement pour le texte que vous copiez pendant qu’une app de terminal est au premier plan.";
+
+/* Text in the Preferences window. */
+"Version" = "Version";
+
+/* Version row in About. The argument is the version and build, e.g. 1.0 (7). */
+"Version %@" = "Version %@";
+
+/* Recent fixes: the copy was repaired by rejoining wrapped lines. */
+"Wrap rules" = "Règles de retour à la ligne";
+
+/* Text in the Preferences window. */
+"Your inbox, defended." = "Votre boîte de réception, défendue.";

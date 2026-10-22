@@ -1,0 +1,323 @@
+/*
+  Localizable.strings (Traditional Chinese, Taiwan)
+  Despacer
+
+  Keys are the English source strings. SwiftUI literals (Text, Button, ...)
+  and String(localized:) look them up in Bundle.main. %@ is a string argument.
+
+  Do not translate: Despacer, Claude Code, Codex, Matt Senter, Senternet,
+  Senternet LLC, other app names (CommandH, Weatherling, Burly, Comoji,
+  Premail, Highwire, StockCar, Orgabot, Fix Siri, BeeReady, SeedMatrix),
+  Slack, :emoji:, Cmd+H, "Hey Siri, do better.", or keyboard glyphs such as ⌘.
+  Never use an em dash in a translation.
+
+  When a string names a macOS feature or place (menu bar, Applications folder,
+  login, System Settings, Paste from Other Apps), use Apple's official
+  localized name for it.
+
+  Every key here must exist in every other .lproj, and every string the app
+  shows must be a key here: scripts/check-localization.py enforces both.
+*/
+
+/* Text in the Preferences window. */
+"A podcast of your portfolio, not the market." = "你的投資組合 Podcast，而不是大盤的。";
+
+/* Settings sidebar tab and pane title. */
+"About" = "關於";
+
+/* Text in the Preferences window. */
+"About the developer" = "關於開發者";
+
+/* Button in the file dialog that adds the chosen app. */
+"Add" = "加入";
+
+/* Title of the file dialog for choosing an app to watch. */
+"Add an App" = "加入應用程式";
+
+/* Text in the Preferences window. */
+"Add any other app you copy commands from, like a code editor with a built-in terminal." = "加入你會從中拷貝指令的其他應用程式，例如內建終端機的程式碼編輯器。";
+
+/* Text in the Preferences window. */
+"Add App…" = "加入應用程式…";
+
+/* Text in the Preferences window. */
+"Added by you" = "由你加入";
+
+/* Credit line. The argument is the developer's name, Matt Senter, which links to his site. */
+"Built by %@" = "開發者：%@";
+
+/* Text in the Preferences window. */
+"Built in" = "內建";
+
+/* Text in the Preferences window. */
+"Claude Code and Codex break long commands across lines in the terminal, so they stop working when you copy and paste them. Despacer puts them back together as you copy." = "Claude Code 和 Codex 會在終端機中把長指令拆成好幾行，拷貝貼上後就無法執行。Despacer 會在你拷貝時把它們重新接回來。";
+
+/* App menu item on Cmd+Q: closes the window but Despacer keeps running. */
+"Close and Keep Running" = "關閉並保持執行";
+
+/* App menu item (Cmd+W). */
+"Close Window" = "關閉視窗";
+
+/* Text in the Preferences window. */
+"Closing this window keeps Despacer running. While it's quit, copies aren't fixed." = "關閉此視窗後，Despacer 仍會繼續執行。結束後，拷貝的內容就不會被修正。";
+
+/* Text in the Preferences window. */
+"Cmd+H that works on the last app, so you can finally see your desktop." = "讓 Cmd+H 連最後一個應用程式也能隱藏，終於看得到你的桌面。";
+
+/* Text in the Preferences window. */
+"Copied" = "已複製";
+
+/* Text in the Preferences window. */
+"Copies the Despacer and system versions, handy for a support request." = "複製 Despacer 和系統的版本資訊，尋求協助時很方便。";
+
+/* Edit menu item. */
+"Copy" = "拷貝";
+
+/* Text in the Preferences window. */
+"Copy Fixed" = "拷貝修正後文字";
+
+/* Text in the Preferences window. */
+"Copy long commands from Claude Code and Codex, and paste them in one piece." = "從 Claude Code 和 Codex 拷貝長指令，貼上時依然完整。";
+
+/* Text in the Preferences window. */
+"Copy Original" = "拷貝原始文字";
+
+/* Text in the Preferences window. */
+"Copy Version Info" = "複製版本資訊";
+
+/* Copyright line. The argument is the company name, Senternet LLC, which links to its site. */
+"Copyright © 2026 %@" = "版權所有 © 2026 %@";
+
+/* Text in the Preferences window. */
+"Despacer can read your copies" = "Despacer 可以讀取你拷貝的內容";
+
+/* Text in the Preferences window. */
+"Despacer can't read your copies, so nothing gets fixed. Set it to Allow in System Settings." = "Despacer 無法讀取你拷貝的內容，因此不會修正任何東西。請在「系統設定」中將它設為「允許」。";
+
+/* Text in the Preferences window. */
+"Despacer is designed, built, and shipped by Matt Senter, an independent developer who makes every Senternet product end to end." = "Despacer 由 Matt Senter 設計、開發並發布。他是一位獨立開發者，每款 Senternet 產品都由他從頭到尾一手打造。";
+
+/* Text in the Preferences window. */
+"Despacer is one of several products Matt Senter of Senternet designs, builds, and ships end to end. Here’s the rest of the lineup." = "Despacer 是 Senternet 的 Matt Senter 從設計、開發到發布一手打造的幾款產品之一。以下是其餘產品。";
+
+/* Text in the Preferences window. */
+"Despacer only fixes text you copy while one of these apps is in front. Everything else you copy is left alone." = "只有在這些應用程式之一位於最前方時，Despacer 才會修正你拷貝的文字。你拷貝的其他內容一律不動。";
+
+/* Settings window title. */
+"Despacer Preferences" = "Despacer 設定";
+
+/* Text in the Preferences window. */
+"Despacer reads what you copy so it can fix it. Newer versions of macOS let you decide which apps may do that." = "Despacer 需要讀取你拷貝的內容才能修正。較新版本的 macOS 讓你決定哪些應用程式可以這麼做。";
+
+/* Text in the Preferences window. */
+"Despacer works entirely on your computer. It looks at the clipboard only when you copy from a terminal app, and to find exact originals it reads Claude Code and Codex session files on this computer. Nothing is saved, and nothing leaves your computer. No account, and no analytics." = "Despacer 完全在你的電腦上運作。它只會在你從終端機應用程式拷貝時查看剪貼板；為了找出完全相符的原文，它會讀取這台電腦上的 Claude Code 和 Codex 工作階段檔案。不會儲存任何內容，也沒有任何內容會離開你的電腦。不需要帳號，也沒有分析功能。";
+
+/* Edit menu title. */
+"Edit" = "編輯";
+
+/* Text in the Preferences window. */
+"Every link, in the right browser profile." = "每個連結，都在對的瀏覽器設定檔中開啟。";
+
+/* Text in the Preferences window. */
+"Every variety, every trial, one clear comparison." = "每個品種，每項試驗，一目瞭然的比較。";
+
+/* Recent fixes: the copy was found word for word in session history. */
+"Exact match" = "完全相符";
+
+/* Text in the Preferences window. */
+"Finds the exact original in Claude Code and Codex session files on this computer, so the fix is never a guess." = "在這台電腦上的 Claude Code 和 Codex 工作階段檔案中找出完全相符的原文，修正絕不靠猜。";
+
+/* Text in the Preferences window. */
+"Fix terminal copies" = "修正從終端機拷貝的內容";
+
+/* Menu bar menu checkbox that turns Despacer on or off. */
+"Fix Terminal Copies" = "修正從終端機拷貝的內容";
+
+/* Settings sidebar tab and pane title: how copies are fixed. */
+"Fixing" = "修正";
+
+/* Status after an app name, e.g. 'Claude Code found': its session history exists on this computer. */
+"found" = "已找到";
+
+/* Text in the Preferences window. */
+"From the same workshop." = "出自同一工坊。";
+
+/* Text in the Preferences window. */
+"Hey Siri, do better. A sourced record of Siri failures and Apple’s promises." = "Hey Siri, do better. 有憑有據的 Siri 失誤與 Apple 承諾紀錄。";
+
+/* App menu item (Cmd+H). */
+"Hide Despacer" = "隱藏 Despacer";
+
+/* Text in the Preferences window. */
+"How copies are fixed" = "如何修正拷貝的內容";
+
+/* Text in the Preferences window. */
+"Kept in memory only, and gone when Despacer quits." = "只保存在記憶體中，Despacer 結束後就會消失。";
+
+/* Text in the Preferences window. */
+"Lifesaving skills, one game at a time." = "一局一局，學會救命技能。";
+
+/* Text in the Preferences window. */
+"macOS asks every time Despacer reads a copy. Set it to Allow in System Settings." = "Despacer 每次讀取拷貝的內容時，macOS 都會詢問。請在「系統設定」中將它設為「允許」。";
+
+/* Text in the Preferences window. */
+"macOS may ask the first time Despacer reads a copy. Choose Allow." = "Despacer 第一次讀取拷貝的內容時，macOS 可能會詢問。請選擇「允許」。";
+
+/* Text in the Preferences window. */
+"Match session history" = "比對工作階段記錄";
+
+/* Text in the Preferences window. */
+"Network activity" = "網路活動";
+
+/* Text in the Preferences window. */
+"Never keeps, shares, or sends anything you copy." = "絕不保留、分享或傳送你拷貝的任何內容。";
+
+/* Text in the Preferences window. */
+"No permission needed on this version of macOS" = "這個版本的 macOS 不需要權限";
+
+/* Text in the Preferences window. */
+"None. Despacer never connects to the internet on its own. The links in these settings open in your browser." = "無。Despacer 絕不會自行連上網際網路。這些設定中的連結會在你的瀏覽器中開啟。";
+
+/* Status after an app name, e.g. 'Codex not found': no session history on this computer. */
+"not found" = "找不到";
+
+/* Text in the Preferences window. */
+"Not installed" = "未安裝";
+
+/* Text in the Preferences window. */
+"Nothing fixed yet. Copy a long command from Claude Code or Codex in your terminal, and it shows up here." = "尚未修正任何內容。在終端機中從 Claude Code 或 Codex 拷貝一道長指令，它就會顯示在這裡。";
+
+/* Text in the Preferences window. */
+"On the web" = "線上資源";
+
+/* VoiceOver action that opens a link in the text. The argument is the link's name, such as Senternet LLC or Matt Senter. */
+"Open %@" = "打開%@";
+
+/* Text in the Preferences window. */
+"Open at login" = "登入時開啟";
+
+/* Menu bar menu checkbox that starts Despacer at login. */
+"Open at Login" = "登入時開啟";
+
+/* Text in the Preferences window. */
+"Open System Settings…" = "打開系統設定…";
+
+/* Text in the Preferences window. */
+"Orchestrate the work, not just the agents." = "統籌整份工作，而不只是 AI 代理。";
+
+/* Settings sidebar tab and pane title listing the developer's other apps. */
+"Other Projects" = "其他專案";
+
+/* Edit menu item. */
+"Paste" = "貼上";
+
+/* Text in the Preferences window. */
+"Paste from Other Apps" = "從其他 App 貼上";
+
+/* Settings sidebar tab and pane title. */
+"Permissions" = "權限";
+
+/* Text in the Preferences window. */
+"Play a sound" = "播放聲音";
+
+/* Menu bar menu checkbox: play a short sound when a fixed copy is ready to paste. */
+"Play Sound When Fixed" = "修正後播放聲音";
+
+/* Text in the Preferences window. */
+"Plays a short sound when a fixed copy is ready to paste." = "修正好的內容可以貼上時，播放一段簡短的提示音。";
+
+/* Menu item that opens the settings window (app menu and menu bar menu). */
+"Preferences…" = "設定…";
+
+/* Settings sidebar tab and pane title. */
+"Privacy" = "隱私";
+
+/* Text in the Preferences window. */
+"Puts the text back on the clipboard exactly as it was copied." = "將文字依拷貝時的原樣放回剪貼板。";
+
+/* Text in the Preferences window. */
+"Quit" = "結束";
+
+/* Text in the Preferences window. */
+"Quit Despacer" = "結束 Despacer";
+
+/* Text in the Preferences window. */
+"Rain, snow, and autumn leaves on your Mac desktop. Weather effects, not a weather app." = "讓 Mac 桌面飄起雨、雪和秋葉。是天氣特效，不是天氣應用程式。";
+
+/* Text in the Preferences window. */
+"Re-check" = "重新檢查";
+
+/* Text in the Preferences window. */
+"Read the full privacy policy" = "閱讀完整隱私權政策";
+
+/* Text in the Preferences window. */
+"Reading Claude Code and Codex session files in your home folder needs no permission. Turn off Match session history under Fixing to stop it." = "讀取你個人專屬檔案夾中的 Claude Code 和 Codex 工作階段檔案不需要任何權限。若要停止，請在「修正」中關閉「比對工作階段記錄」。";
+
+/* Text in the Preferences window. */
+"Recent fixes" = "最近的修正";
+
+/* Text in the Preferences window. */
+"Rejoins lines that were clearly broken at the terminal's width, the moment you copy. Real multi-line scripts are left as they are." = "在你拷貝的當下，把明顯是因終端機寬度而斷開的行重新接起來。真正的多行腳本會保持原樣。";
+
+/* Text in the Preferences window. */
+"Remove" = "移除";
+
+/* Text in the Preferences window. */
+"Repair other wrapped text" = "修正其他自動換行的文字";
+
+/* Text in the Preferences window. */
+"Report an Issue" = "回報問題";
+
+/* Text in the Preferences window. */
+"See beyond the headlines." = "看透頭條背後。";
+
+/* Text in the Preferences window. */
+"See Other Projects" = "查看其他專案";
+
+/* Edit menu item. */
+"Select All" = "全選";
+
+/* Text in the Preferences window. */
+"Session history" = "工作階段記錄";
+
+/* Text in the Preferences window. */
+"Show in menu bar" = "在選單列中顯示";
+
+/* Menu bar menu checkbox that shows or hides the menu bar icon. */
+"Show in Menu Bar" = "在選單列中顯示";
+
+/* Text in the Preferences window. */
+"Slack-style :emoji: autocomplete, everywhere on your Mac." = "Slack 風格的 :emoji: 自動完成，在 Mac 上隨處可用。";
+
+/* Text in the Preferences window. */
+"Source Code" = "原始碼";
+
+/* Settings sidebar tab and pane title. Also the label of the system version row in About. */
+"System" = "系統";
+
+/* Settings sidebar tab and pane title: which apps Despacer watches. */
+"Terminals" = "終端機";
+
+/* Text in the Preferences window. */
+"The last ten fixes are kept in memory so you can undo them, and are gone when Despacer quits." = "最近十次修正會保存在記憶體中，方便你還原，Despacer 結束後就會消失。";
+
+/* Text in the Preferences window. */
+"To get back to these settings, open Despacer from your Applications folder." = "若要回到這些設定，請從「應用程式」檔案夾開啟 Despacer。";
+
+/* Menu bar menu item: puts the last copy back on the clipboard exactly as it was copied. */
+"Undo Last Fix" = "還原上次修正";
+
+/* Text in the Preferences window. */
+"Used only for text you copy while a terminal app is in front." = "只用於終端機應用程式位於最前方時你拷貝的文字。";
+
+/* Text in the Preferences window. */
+"Version" = "版本";
+
+/* Version row in About. The argument is the version and build, e.g. 1.0 (7). */
+"Version %@" = "版本 %@";
+
+/* Recent fixes: the copy was repaired by rejoining wrapped lines. */
+"Wrap rules" = "換行規則";
+
+/* Text in the Preferences window. */
+"Your inbox, defended." = "守護你的收件匣。";

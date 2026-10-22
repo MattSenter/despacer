@@ -1,0 +1,35 @@
+name: CI
+
+# Builds the app, runs the fixing engine's tests, and checks that every
+# language is complete, on every pull request and every push to main.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Fixing engine tests
+        run: swift test
+
+      - name: Build the app
+        run: ./build.sh
+
+      - name: Every language complete (app strings and docs)
+        run: python3 scripts/check-localization.py

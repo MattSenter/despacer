@@ -1,0 +1,323 @@
+/*
+  Localizable.strings (Japanese)
+  Despacer
+
+  Keys are the English source strings. SwiftUI literals (Text, Button, ...)
+  and String(localized:) look them up in Bundle.main. %@ is a string argument.
+
+  Do not translate: Despacer, Claude Code, Codex, Matt Senter, Senternet,
+  Senternet LLC, other app names (CommandH, Weatherling, Burly, Comoji,
+  Premail, Highwire, StockCar, Orgabot, Fix Siri, BeeReady, SeedMatrix),
+  Slack, :emoji:, Cmd+H, "Hey Siri, do better.", or keyboard glyphs such as ⌘.
+  Never use an em dash in a translation.
+
+  When a string names a macOS feature or place (menu bar, Applications folder,
+  login, System Settings, Paste from Other Apps), use Apple's official
+  localized name for it.
+
+  Every key here must exist in every other .lproj, and every string the app
+  shows must be a key here: scripts/check-localization.py enforces both.
+*/
+
+/* Text in the Preferences window. */
+"A podcast of your portfolio, not the market." = "市場ではなく、あなたのポートフォリオのポッドキャスト。";
+
+/* Settings sidebar tab and pane title. */
+"About" = "情報";
+
+/* Text in the Preferences window. */
+"About the developer" = "開発者について";
+
+/* Button in the file dialog that adds the chosen app. */
+"Add" = "追加";
+
+/* Title of the file dialog for choosing an app to watch. */
+"Add an App" = "アプリを追加";
+
+/* Text in the Preferences window. */
+"Add any other app you copy commands from, like a code editor with a built-in terminal." = "ターミナルを内蔵したコードエディタなど、コマンドをコピーするほかのアプリを追加できます。";
+
+/* Text in the Preferences window. */
+"Add App…" = "アプリを追加…";
+
+/* Text in the Preferences window. */
+"Added by you" = "自分で追加";
+
+/* Credit line. The argument is the developer's name, Matt Senter, which links to his site. */
+"Built by %@" = "開発: %@";
+
+/* Text in the Preferences window. */
+"Built in" = "標準";
+
+/* Text in the Preferences window. */
+"Claude Code and Codex break long commands across lines in the terminal, so they stop working when you copy and paste them. Despacer puts them back together as you copy." = "Claude CodeとCodexは、ターミナル内で長いコマンドを複数の行に分割するため、コピーしてペーストすると動かなくなります。Despacerは、コピーした時点でそれを元どおりにつなぎ直します。";
+
+/* App menu item on Cmd+Q: closes the window but Despacer keeps running. */
+"Close and Keep Running" = "閉じて実行を続ける";
+
+/* App menu item (Cmd+W). */
+"Close Window" = "ウインドウを閉じる";
+
+/* Text in the Preferences window. */
+"Closing this window keeps Despacer running. While it's quit, copies aren't fixed." = "このウインドウを閉じても、Despacerは実行され続けます。終了しているあいだは、コピーは修正されません。";
+
+/* Text in the Preferences window. */
+"Cmd+H that works on the last app, so you can finally see your desktop." = "最後のアプリにも Cmd+H が効く。ようやくデスクトップが見えます。";
+
+/* Text in the Preferences window. */
+"Copied" = "コピーしました";
+
+/* Text in the Preferences window. */
+"Copies the Despacer and system versions, handy for a support request." = "Despacerとシステムのバージョンをコピーします。サポートへの問い合わせに便利です。";
+
+/* Edit menu item. */
+"Copy" = "コピー";
+
+/* Text in the Preferences window. */
+"Copy Fixed" = "修正後をコピー";
+
+/* Text in the Preferences window. */
+"Copy long commands from Claude Code and Codex, and paste them in one piece." = "Claude CodeとCodexの長いコマンドをコピーして、ひとつながりのままペースト。";
+
+/* Text in the Preferences window. */
+"Copy Original" = "元のテキストをコピー";
+
+/* Text in the Preferences window. */
+"Copy Version Info" = "バージョン情報をコピー";
+
+/* Copyright line. The argument is the company name, Senternet LLC, which links to its site. */
+"Copyright © 2026 %@" = "Copyright © 2026 %@";
+
+/* Text in the Preferences window. */
+"Despacer can read your copies" = "Despacerはコピーした内容を読み取れます";
+
+/* Text in the Preferences window. */
+"Despacer can't read your copies, so nothing gets fixed. Set it to Allow in System Settings." = "Despacerがコピーした内容を読み取れないため、何も修正されません。システム設定で「許可」に設定してください。";
+
+/* Text in the Preferences window. */
+"Despacer is designed, built, and shipped by Matt Senter, an independent developer who makes every Senternet product end to end." = "Despacerは、Senternetのすべてのプロダクトを一貫して手がける独立系開発者、Matt Senterが設計、開発、リリースしています。";
+
+/* Text in the Preferences window. */
+"Despacer is one of several products Matt Senter of Senternet designs, builds, and ships end to end. Here’s the rest of the lineup." = "Despacerは、SenternetのMatt Senterが設計から開発、リリースまで一貫して手がけるプロダクトのひとつです。ほかのラインナップはこちらです。";
+
+/* Text in the Preferences window. */
+"Despacer only fixes text you copy while one of these apps is in front. Everything else you copy is left alone." = "Despacerが修正するのは、これらのアプリのいずれかが最前面にあるときにコピーしたテキストだけです。それ以外のコピーには手を加えません。";
+
+/* Settings window title. */
+"Despacer Preferences" = "Despacerの設定";
+
+/* Text in the Preferences window. */
+"Despacer reads what you copy so it can fix it. Newer versions of macOS let you decide which apps may do that." = "Despacerは修正のために、コピーした内容を読み取ります。新しいバージョンのmacOSでは、それを許可するアプリを自分で決められます。";
+
+/* Text in the Preferences window. */
+"Despacer works entirely on your computer. It looks at the clipboard only when you copy from a terminal app, and to find exact originals it reads Claude Code and Codex session files on this computer. Nothing is saved, and nothing leaves your computer. No account, and no analytics." = "Despacerは、すべてお使いのコンピュータ上で動作します。クリップボードを確認するのはターミナルアプリからコピーしたときだけで、正確な元のテキストを見つけるために、このコンピュータ上のClaude CodeとCodexのセッションファイルを読み取ります。何も保存されず、何もコンピュータの外に送られません。アカウントも分析もありません。";
+
+/* Edit menu title. */
+"Edit" = "編集";
+
+/* Text in the Preferences window. */
+"Every link, in the right browser profile." = "すべてのリンクを、正しいブラウザプロファイルへ。";
+
+/* Text in the Preferences window. */
+"Every variety, every trial, one clear comparison." = "すべての品種、すべての試験を、ひとつの明快な比較に。";
+
+/* Recent fixes: the copy was found word for word in session history. */
+"Exact match" = "完全一致";
+
+/* Text in the Preferences window. */
+"Finds the exact original in Claude Code and Codex session files on this computer, so the fix is never a guess." = "このコンピュータ上のClaude CodeとCodexのセッションファイルから正確な元のテキストを見つけるので、推測で修正することはありません。";
+
+/* Text in the Preferences window. */
+"Fix terminal copies" = "ターミナルのコピーを修正";
+
+/* Menu bar menu checkbox that turns Despacer on or off. */
+"Fix Terminal Copies" = "ターミナルのコピーを修正";
+
+/* Settings sidebar tab and pane title: how copies are fixed. */
+"Fixing" = "修正";
+
+/* Status after an app name, e.g. 'Claude Code found': its session history exists on this computer. */
+"found" = "検出済み";
+
+/* Text in the Preferences window. */
+"From the same workshop." = "同じ工房から。";
+
+/* Text in the Preferences window. */
+"Hey Siri, do better. A sourced record of Siri failures and Apple’s promises." = "Hey Siri, do better. Siri の失敗と Apple の約束を、出典つきで記録。";
+
+/* App menu item (Cmd+H). */
+"Hide Despacer" = "Despacerを非表示";
+
+/* Text in the Preferences window. */
+"How copies are fixed" = "コピーの修正方法";
+
+/* Text in the Preferences window. */
+"Kept in memory only, and gone when Despacer quits." = "メモリ内にだけ保持され、Despacerを終了すると消えます。";
+
+/* Text in the Preferences window. */
+"Lifesaving skills, one game at a time." = "命を救う技術を、一試合ずつ。";
+
+/* Text in the Preferences window. */
+"macOS asks every time Despacer reads a copy. Set it to Allow in System Settings." = "Despacerがコピーを読み取るたびに、macOSが確認を求めます。システム設定で「許可」に設定してください。";
+
+/* Text in the Preferences window. */
+"macOS may ask the first time Despacer reads a copy. Choose Allow." = "Despacerが初めてコピーを読み取るときに、macOSが確認を求めることがあります。「許可」を選んでください。";
+
+/* Text in the Preferences window. */
+"Match session history" = "セッション履歴と照合";
+
+/* Text in the Preferences window. */
+"Network activity" = "ネットワーク通信";
+
+/* Text in the Preferences window. */
+"Never keeps, shares, or sends anything you copy." = "コピーした内容を保存、共有、送信することはありません。";
+
+/* Text in the Preferences window. */
+"No permission needed on this version of macOS" = "このバージョンのmacOSでは許可は不要です";
+
+/* Text in the Preferences window. */
+"None. Despacer never connects to the internet on its own. The links in these settings open in your browser." = "ありません。Despacerが自分からインターネットに接続することはありません。この設定画面のリンクはブラウザで開きます。";
+
+/* Status after an app name, e.g. 'Codex not found': no session history on this computer. */
+"not found" = "未検出";
+
+/* Text in the Preferences window. */
+"Not installed" = "未インストール";
+
+/* Text in the Preferences window. */
+"Nothing fixed yet. Copy a long command from Claude Code or Codex in your terminal, and it shows up here." = "まだ修正はありません。ターミナルでClaude CodeかCodexの長いコマンドをコピーすると、ここに表示されます。";
+
+/* Text in the Preferences window. */
+"On the web" = "オンライン";
+
+/* VoiceOver action that opens a link in the text. The argument is the link's name, such as Senternet LLC or Matt Senter. */
+"Open %@" = "%@を開く";
+
+/* Text in the Preferences window. */
+"Open at login" = "ログイン時に開く";
+
+/* Menu bar menu checkbox that starts Despacer at login. */
+"Open at Login" = "ログイン時に開く";
+
+/* Text in the Preferences window. */
+"Open System Settings…" = "システム設定を開く…";
+
+/* Text in the Preferences window. */
+"Orchestrate the work, not just the agents." = "エージェントだけでなく、仕事そのものを束ねる。";
+
+/* Settings sidebar tab and pane title listing the developer's other apps. */
+"Other Projects" = "その他のプロジェクト";
+
+/* Edit menu item. */
+"Paste" = "ペースト";
+
+/* Text in the Preferences window. */
+"Paste from Other Apps" = "他のAppからペースト";
+
+/* Settings sidebar tab and pane title. */
+"Permissions" = "アクセス許可";
+
+/* Text in the Preferences window. */
+"Play a sound" = "サウンドを再生";
+
+/* Menu bar menu checkbox: play a short sound when a fixed copy is ready to paste. */
+"Play Sound When Fixed" = "修正時にサウンドを再生";
+
+/* Text in the Preferences window. */
+"Plays a short sound when a fixed copy is ready to paste." = "修正したコピーをペーストできる状態になると、短いサウンドを再生します。";
+
+/* Menu item that opens the settings window (app menu and menu bar menu). */
+"Preferences…" = "設定…";
+
+/* Settings sidebar tab and pane title. */
+"Privacy" = "プライバシー";
+
+/* Text in the Preferences window. */
+"Puts the text back on the clipboard exactly as it was copied." = "テキストを、コピーしたときのままの状態でクリップボードに戻します。";
+
+/* Text in the Preferences window. */
+"Quit" = "終了";
+
+/* Text in the Preferences window. */
+"Quit Despacer" = "Despacerを終了";
+
+/* Text in the Preferences window. */
+"Rain, snow, and autumn leaves on your Mac desktop. Weather effects, not a weather app." = "Mac のデスクトップに雨、雪、秋の落ち葉を。天気予報アプリではなく、天気エフェクトです。";
+
+/* Text in the Preferences window. */
+"Re-check" = "再確認";
+
+/* Text in the Preferences window. */
+"Read the full privacy policy" = "プライバシーポリシーの全文を読む";
+
+/* Text in the Preferences window. */
+"Reading Claude Code and Codex session files in your home folder needs no permission. Turn off Match session history under Fixing to stop it." = "ホームフォルダにあるClaude CodeとCodexのセッションファイルの読み取りに、許可は不要です。やめるには、「修正」で「セッション履歴と照合」をオフにしてください。";
+
+/* Text in the Preferences window. */
+"Recent fixes" = "最近の修正";
+
+/* Text in the Preferences window. */
+"Rejoins lines that were clearly broken at the terminal's width, the moment you copy. Real multi-line scripts are left as they are." = "ターミナルの幅で明らかに折り返された行を、コピーした瞬間につなぎ直します。本当に複数行のスクリプトはそのまま残します。";
+
+/* Text in the Preferences window. */
+"Remove" = "削除";
+
+/* Text in the Preferences window. */
+"Repair other wrapped text" = "ほかの折り返されたテキストも修復";
+
+/* Text in the Preferences window. */
+"Report an Issue" = "問題を報告";
+
+/* Text in the Preferences window. */
+"See beyond the headlines." = "見出しの向こう側を見る。";
+
+/* Text in the Preferences window. */
+"See Other Projects" = "その他のプロジェクトを見る";
+
+/* Edit menu item. */
+"Select All" = "すべてを選択";
+
+/* Text in the Preferences window. */
+"Session history" = "セッション履歴";
+
+/* Text in the Preferences window. */
+"Show in menu bar" = "メニューバーに表示";
+
+/* Menu bar menu checkbox that shows or hides the menu bar icon. */
+"Show in Menu Bar" = "メニューバーに表示";
+
+/* Text in the Preferences window. */
+"Slack-style :emoji: autocomplete, everywhere on your Mac." = "Slack 風の :emoji: 補完を、Mac のどこでも。";
+
+/* Text in the Preferences window. */
+"Source Code" = "ソースコード";
+
+/* Settings sidebar tab and pane title. Also the label of the system version row in About. */
+"System" = "システム";
+
+/* Settings sidebar tab and pane title: which apps Despacer watches. */
+"Terminals" = "ターミナル";
+
+/* Text in the Preferences window. */
+"The last ten fixes are kept in memory so you can undo them, and are gone when Despacer quits." = "直近10件の修正は、取り消せるようにメモリ内に保持され、Despacerを終了すると消えます。";
+
+/* Text in the Preferences window. */
+"To get back to these settings, open Despacer from your Applications folder." = "この設定に戻るには、アプリケーションフォルダからDespacerを開いてください。";
+
+/* Menu bar menu item: puts the last copy back on the clipboard exactly as it was copied. */
+"Undo Last Fix" = "最後の修正を取り消す";
+
+/* Text in the Preferences window. */
+"Used only for text you copy while a terminal app is in front." = "ターミナルアプリが最前面にあるときにコピーしたテキストにのみ使います。";
+
+/* Text in the Preferences window. */
+"Version" = "バージョン";
+
+/* Version row in About. The argument is the version and build, e.g. 1.0 (7). */
+"Version %@" = "バージョン %@";
+
+/* Recent fixes: the copy was repaired by rejoining wrapped lines. */
+"Wrap rules" = "折り返しルール";
+
+/* Text in the Preferences window. */
+"Your inbox, defended." = "受信トレイを、守る。";
