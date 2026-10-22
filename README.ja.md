@@ -47,6 +47,7 @@ curl --fail --location --retry 3 --connect-timeout 10 --max-time 120 --output pr
 - [アンインストール](#アンインストール)
 - [ビルドと貢献](#ビルドと貢献)
 - [プロジェクトを支援する](#プロジェクトを支援する)
+- [その他のプロジェクト](#その他のプロジェクト)
 
 ## インストール
 
@@ -220,6 +221,22 @@ Despacerは無料で、これからもずっと無料です。毎日のちょっ
 </p>
 
 チップはお礼の気持ちです。解除される機能はありません。そもそも解除するものがないからです。
+
+## その他のプロジェクト
+
+Despacerは、[Senternet](https://www.senter.net/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)の[Matt Senter](https://www.mattsenter.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)が設計から開発、リリースまで一貫して手がけるプロダクトのひとつです。ほかのラインナップはこちらです。
+
+- **[CommandH](https://github.com/MattSenter/commandh)**: 最後のアプリにも Cmd+H が効く。ようやくデスクトップが見えます。
+- **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Mac のデスクトップに雨、雪、秋の落ち葉を。天気予報アプリではなく、天気エフェクトです。
+- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: すべてのリンクを、正しいブラウザプロファイルへ。
+- **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Slack 風の :emoji: 補完を、Mac のどこでも。
+- **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: エージェントだけでなく、仕事そのものを束ねる。
+- **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 受信トレイを、守る。
+- **[Highwire](https://www.highwire.news/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 見出しの向こう側を見る。
+- **[StockCar](https://www.stockcar.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 市場ではなく、あなたのポートフォリオのポッドキャスト。
+- **[Fix Siri](https://www.fixsiri.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Hey Siri, do better. Siri の失敗と Apple の約束を、出典つきで記録。
+- **[BeeReady](https://www.beeready.buzz/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 命を救う技術を、一試合ずつ。
+- **[SeedMatrix](https://www.seedmatrix.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: すべての品種、すべての試験を、ひとつの明快な比較に。
 
 ## ライセンス
 

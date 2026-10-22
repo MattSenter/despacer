@@ -47,6 +47,7 @@ curl --fail --location --retry 3 --connect-timeout 10 --max-time 120 --output pr
 - [解除安裝](#解除安裝)
 - [建置與貢獻](#建置與貢獻)
 - [支持這個專案](#支持這個專案)
+- [其他專案](#其他專案)
 
 ## 安裝
 
@@ -220,6 +221,22 @@ Despacer 是免費的，而且永遠免費。如果它幫你省去了每天的�
 </p>
 
 小費只是一份心意，不會解鎖任何功能，因為本來就沒有東西需要解鎖。
+
+## 其他專案
+
+Despacer 是 [Senternet](https://www.senter.net/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects) 的 [Matt Senter](https://www.mattsenter.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects) 從設計、開發到發布一手打造的幾款產品之一。以下是其餘產品。
+
+- **[CommandH](https://github.com/MattSenter/commandh)**：讓 Cmd+H 連最後一個應用程式也能隱藏，終於看得到你的桌面。
+- **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：讓 Mac 桌面飄起雨、雪和秋葉。是天氣特效，不是天氣應用程式。
+- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：每個連結，都在對的瀏覽器設定檔中開啟。
+- **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：Slack 風格的 :emoji: 自動完成，在 Mac 上隨處可用。
+- **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：統籌整份工作，而不只是 AI 代理。
+- **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：守護你的收件匣。
+- **[Highwire](https://www.highwire.news/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：看透頭條背後。
+- **[StockCar](https://www.stockcar.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：你的投資組合 Podcast，而不是大盤的。
+- **[Fix Siri](https://www.fixsiri.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：Hey Siri, do better. 有憑有據的 Siri 失誤與 Apple 承諾紀錄。
+- **[BeeReady](https://www.beeready.buzz/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：一局一局，學會救命技能。
+- **[SeedMatrix](https://www.seedmatrix.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：每個品種，每項試驗，一目瞭然的比較。
 
 ## 授權條款
 

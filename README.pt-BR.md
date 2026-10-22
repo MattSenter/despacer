@@ -47,6 +47,7 @@ curl --fail --location --retry 3 --connect-timeout 10 --max-time 120 --output pr
 - [Desinstalação](#desinstalação)
 - [Compilação e contribuições](#compilação-e-contribuições)
 - [Apoie o projeto](#apoie-o-projeto)
+- [Outros projetos](#outros-projetos)
 
 ## Instalação
 
@@ -220,6 +221,22 @@ O Despacer é gratuito e sempre será. Se ele poupa você de uma pequena irrita�
 </p>
 
 A gorjeta é um agradecimento. Ela não desbloqueia nada, porque não há nada para desbloquear.
+
+## Outros projetos
+
+O Despacer é um dos vários produtos que [Matt Senter](https://www.mattsenter.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects), da [Senternet](https://www.senter.net/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects), projeta, desenvolve e lança de ponta a ponta. Aqui está o resto da linha.
+
+- **[CommandH](https://github.com/MattSenter/commandh)**: Um Cmd+H que funciona até no último app, para você enfim ver a sua área de trabalho.
+- **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Chuva, neve e folhas de outono na área de trabalho do Mac. Efeitos de clima, não um app de previsão.
+- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Cada link, no perfil de navegador certo.
+- **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Autocompletar de :emoji: no estilo Slack, em todo o seu Mac.
+- **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Orquestrar o trabalho, não apenas os agentes.
+- **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Sua caixa de entrada, defendida.
+- **[Highwire](https://www.highwire.news/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Enxergar além das manchetes.
+- **[StockCar](https://www.stockcar.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Um podcast da sua carteira, não do mercado.
+- **[Fix Siri](https://www.fixsiri.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Hey Siri, do better. Um registro com fontes das falhas da Siri e das promessas da Apple.
+- **[BeeReady](https://www.beeready.buzz/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Habilidades que salvam vidas, um jogo de cada vez.
+- **[SeedMatrix](https://www.seedmatrix.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Cada variedade, cada ensaio, uma comparação clara.
 
 ## Licença
 

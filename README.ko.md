@@ -47,6 +47,7 @@ curl --fail --location --retry 3 --connect-timeout 10 --max-time 120 --output pr
 - [제거](#제거)
 - [빌드 및 기여](#빌드-및-기여)
 - [프로젝트 후원하기](#프로젝트-후원하기)
+- [다른 프로젝트](#다른-프로젝트)
 
 ## 설치
 
@@ -220,6 +221,22 @@ Despacer는 무료이며 앞으로도 계속 무료입니다. 매일 겪던 작�
 </p>
 
 팁은 감사의 표시입니다. 잠금 해제되는 기능은 없습니다. 애초에 잠긴 기능이 없기 때문입니다.
+
+## 다른 프로젝트
+
+Despacer는 [Senternet](https://www.senter.net/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)의 [Matt Senter](https://www.mattsenter.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)가 설계부터 개발, 출시까지 직접 하는 여러 제품 중 하나입니다. 나머지 제품을 소개합니다.
+
+- **[CommandH](https://github.com/MattSenter/commandh)**: 마지막 앱에서도 작동하는 Cmd+H. 이제 데스크탑이 보입니다.
+- **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Mac 데스크탑 위로 내리는 비, 눈, 낙엽. 날씨 앱이 아니라 날씨 효과입니다.
+- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 모든 링크를 알맞은 브라우저 프로필로.
+- **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Slack 스타일 :emoji: 자동 완성을 Mac 어디서나.
+- **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 에이전트만이 아니라 일 전체를 조율하세요.
+- **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 받은 편지함을 지킵니다.
+- **[Highwire](https://www.highwire.news/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 헤드라인 너머를 보세요.
+- **[StockCar](https://www.stockcar.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 시장이 아닌, 내 포트폴리오의 팟캐스트.
+- **[Fix Siri](https://www.fixsiri.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Hey Siri, do better. Siri의 실패와 Apple의 약속을 출처와 함께 기록합니다.
+- **[BeeReady](https://www.beeready.buzz/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 생명을 구하는 기술, 한 경기씩.
+- **[SeedMatrix](https://www.seedmatrix.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 모든 품종, 모든 시험, 하나의 명확한 비교.
 
 ## 라이선스
 

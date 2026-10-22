@@ -47,6 +47,7 @@ curl --fail --location --retry 3 --connect-timeout 10 --max-time 120 --output pr
 - [卸载](#卸载)
 - [构建与贡献](#构建与贡献)
 - [支持本项目](#支持本项目)
+- [其他项目](#其他项目)
 
 ## 安装
 
@@ -220,6 +221,22 @@ Despacer 现在免费，将来也永远免费。如果它帮你省去了每天�
 </p>
 
 打赏只是一份谢意，不会解锁任何东西，因为本来就没有什么需要解锁。
+
+## 其他项目
+
+Despacer 是 [Senternet](https://www.senter.net/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects) 的 [Matt Senter](https://www.mattsenter.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects) 从设计、开发到发布一手打造的几款产品之一。以下是其余产品。
+
+- **[CommandH](https://github.com/MattSenter/commandh)**：让 Cmd+H 对最后一个应用也有效，终于能看到你的桌面。
+- **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：在你的 Mac 桌面上下雨、下雪、飘落秋叶。是天气特效，不是天气应用。
+- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：每个链接，都进正确的浏览器配置文件。
+- **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：Slack 风格的 :emoji: 自动补全，用在整台 Mac 上。
+- **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：编排的是工作，而不只是智能体。
+- **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：守住你的收件箱。
+- **[Highwire](https://www.highwire.news/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：看穿标题之外。
+- **[StockCar](https://www.stockcar.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：一档关于你持仓的播客，而不是关于大盘。
+- **[Fix Siri](https://www.fixsiri.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：Hey Siri, do better. 有据可查的 Siri 失误与 Apple 承诺记录。
+- **[BeeReady](https://www.beeready.buzz/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：救命的本事，一场比赛一场比赛地教。
+- **[SeedMatrix](https://www.seedmatrix.com/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：每个品种、每次试验，一份清晰的对比。
 
 ## 许可证
 
