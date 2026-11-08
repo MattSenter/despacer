@@ -73,4 +73,39 @@ final class DespacerTests: XCTestCase {
         XCTAssertEqual(Despacer.normalize(agent, requireAgentIndent: true),
                        "gcloud logging read 'logName=\"projects/demo-tools/logs/firebasehosting.googleapis.com%2Fwebrequests\" AND")
     }
+
+    func testBlockquoteBarsAreStrippedAndWrapsRejoined() {
+        let copied = """
+          \u{258E} Hi Dana, could you add the staging service account to the shared bucket
+          \u{258E} so the nightly export job can write to it? Thanks!
+          \u{258E}
+          \u{258E} Matt
+        """
+        XCTAssertEqual(Despacer.normalize(copied, requireAgentIndent: true),
+                       "Hi Dana, could you add the staging service account to the shared bucket so the nightly export job can write to it? Thanks!\n\nMatt")
+    }
+
+    func testBlockquoteBarsCountAsAgentOutputWithoutIndent() {
+        let copied = "\u{258E} Please rotate the demo API key before Friday and let me know once the new\n\u{258E} one is live in the fictional Premail config."
+        XCTAssertEqual(Despacer.normalize(copied, requireAgentIndent: true),
+                       "Please rotate the demo API key before Friday and let me know once the new one is live in the fictional Premail config.")
+    }
+
+    func testBlockquoteSelectionStartingMidLine() {
+        let copied = "could you add the staging service account to the shared bucket\n  \u{258E} so the nightly export job can write to it? Thanks!"
+        XCTAssertEqual(Despacer.normalize(copied),
+                       "could you add the staging service account to the shared bucket so the nightly export job can write to it? Thanks!")
+    }
+
+    func testTranscriptMatchIgnoresBlockquoteBars() {
+        let dir = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try! FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: dir) }
+        let text = "Draft:\n\n> Hi Dana, could you add the staging service account to the shared bucket so the nightly export job can write to it?"
+        let line = try! JSONSerialization.data(withJSONObject: ["type": "assistant", "message": ["content": [["type": "text", "text": text]]]])
+        try! line.write(to: dir.appendingPathComponent("s.jsonl"))
+        let copied = "  \u{258E} Hi Dana, could you add the staging service account to the shared\n  \u{258E} bucket so the nightly export job can write to it?"
+        XCTAssertEqual(TranscriptMatcher.findOriginal(of: copied, roots: [dir])?.text,
+                       "Hi Dana, could you add the staging service account to the shared bucket so the nightly export job can write to it?")
+    }
 }

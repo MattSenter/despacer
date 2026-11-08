@@ -24,6 +24,8 @@ public enum TranscriptMatcher {
         of copied: String, roots: [URL] = defaultRoots, maxAge: TimeInterval = 86_400,
         tailBytes: Int = 8 << 20, budget: TimeInterval = 1
     ) -> (text: String, source: URL)? {
+        // Blockquote bars are drawn by the terminal UI, not part of the transcript text.
+        let copied = copied.replacingOccurrences(of: Despacer.quoteBar, with: "")
         let needle = squash(copied)
         guard needle.count >= minimumSignificantLength else { return nil }
         // Only JSON-decode transcript lines that contain every distinctive raw token.
