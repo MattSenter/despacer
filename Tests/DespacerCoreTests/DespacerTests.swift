@@ -108,4 +108,21 @@ final class DespacerTests: XCTestCase {
         XCTAssertEqual(TranscriptMatcher.findOriginal(of: copied, roots: [dir])?.text,
                        "Hi Dana, could you add the staging service account to the shared bucket so the nightly export job can write to it?")
     }
+
+    func testTranscriptMatchSkipsInlineCodeBackticks() {
+        let dir = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try! FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: dir) }
+        let text = "**To try it:**\n1. Quit it.\n2. Open `build/DerivedData/Build/Products/Release/Weatherling.app`.\n3. Done."
+        let line = try! JSONSerialization.data(withJSONObject: ["type": "assistant", "message": ["content": [["type": "text", "text": text]]]])
+        try! line.write(to: dir.appendingPathComponent("s.jsonl"))
+        let copied = "build/DerivedData/Build/Products/Release/Weather\n     ling.app."
+        XCTAssertEqual(TranscriptMatcher.findOriginal(of: copied, roots: [dir])?.text,
+                       "build/DerivedData/Build/Products/Release/Weatherling.app.")
+        XCTAssertEqual(TranscriptMatcher.findOriginal(of: "To try it:\n1. Quit it.", roots: [dir])?.text, "To try it:\n1. Quit it.")
+    }
+
+    func testTranscriptMatchKeepsMarkupTheCopyHas() {
+        XCTAssertEqual(TranscriptMatcher.match(needle: "echo`date`", in: "run echo `date` now"), "echo `date`")
+    }
 }

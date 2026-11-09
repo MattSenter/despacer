@@ -29,9 +29,11 @@ public enum TranscriptMatcher {
         let needle = squash(copied)
         guard needle.count >= minimumSignificantLength else { return nil }
         // Only JSON-decode transcript lines that contain every distinctive raw token.
-        // Tokens with JSON-escaped characters would not appear verbatim, so they are skipped.
-        let probes = Set(copied.split(whereSeparator: \.isWhitespace)
-            .filter { $0.count >= 3 && !$0.contains("\"") && !$0.contains("\\") }
+        // Tokens are runs of letters and digits: markdown the terminal UI hides (the
+        // backticks of `code.app`.) can sit next to punctuation, and JSON escapes
+        // quotes and backslashes, so neither would appear verbatim.
+        let probes = Set(copied.split { !($0.isLetter || $0.isNumber) }
+            .filter { $0.count >= 3 }
             .map { Array($0.utf8) })
             .sorted { $0.count > $1.count }
         guard let anchor = probes.first else { return nil }
@@ -89,21 +91,33 @@ public enum TranscriptMatcher {
     }
 
     /// Returns the span of `haystack` whose non-whitespace characters equal `needle`.
-    /// Works on UTF-8 bytes so large candidates stay fast.
+    /// Markdown markers the terminal UI draws as styling instead of text (backticks,
+    /// asterisks, underscores) are skipped in `haystack` when `needle` lacks them,
+    /// and left out of the result. Works on UTF-8 bytes so large candidates stay fast.
     public static func match(needle: String, in haystack: String) -> String? {
         let target = Array(squash(needle).utf8)
+        guard let first = target.first else { return nil }
         let bytes = Array(haystack.utf8)
-        var squashed: [UInt8] = []
-        var origin: [Int] = []
-        squashed.reserveCapacity(bytes.count)
-        origin.reserveCapacity(bytes.count)
-        for (offset, byte) in bytes.enumerated() where !isSpace(byte) {
-            squashed.append(byte)
-            origin.append(offset)
+        var from = 0
+        while let start = bytes[from...].firstIndex(of: first) {
+            var i = start, j = 0
+            var hidden: [Int] = []
+            while j < target.count, i < bytes.count {
+                let byte = bytes[i]
+                if byte == target[j] { j += 1 } else if isMarkup(byte) { hidden.append(i) } else if !isSpace(byte) { break }
+                i += 1
+            }
+            if j == target.count {
+                var span = Array(bytes[start..<i])
+                for offset in hidden.reversed() { span.remove(at: offset - start) }
+                return String(decoding: span, as: UTF8.self)
+            }
+            from = start + 1
         }
-        guard !target.isEmpty, let range = squashed.firstRange(of: target) else { return nil }
-        return String(decoding: bytes[origin[range.lowerBound]...origin[range.upperBound - 1]], as: UTF8.self)
+        return nil
     }
+
+    static func isMarkup(_ byte: UInt8) -> Bool { byte == 0x60 || byte == 0x2A || byte == 0x5F }
 
     static func isSpace(_ byte: UInt8) -> Bool { byte == 0x20 || byte == 0x09 || byte == 0x0A || byte == 0x0D }
 
