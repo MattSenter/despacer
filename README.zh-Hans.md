@@ -228,7 +228,7 @@ Despacer 是 [Senternet](https://www.senter.net/?utm_source=github&utm_medium=re
 
 - **[CommandH](https://github.com/MattSenter/commandh)**：让 Cmd+H 对最后一个应用也有效，终于能看到你的桌面。
 - **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：在你的 Mac 桌面上下雨、下雪、飘落秋叶。是天气特效，不是天气应用。
-- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：每个链接，都进正确的浏览器配置文件。
+- **[Burly](https://www.burly.link/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：每个链接，都进正确的浏览器配置文件。
 - **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：Slack 风格的 :emoji: 自动补全，用在整台 Mac 上。
 - **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：编排的是工作，而不只是智能体。
 - **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**：守住你的收件箱。

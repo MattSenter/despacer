@@ -228,7 +228,7 @@ Despacer는 [Senternet](https://www.senter.net/?utm_source=github&utm_medium=rea
 
 - **[CommandH](https://github.com/MattSenter/commandh)**: 마지막 앱에서도 작동하는 Cmd+H. 이제 데스크탑이 보입니다.
 - **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Mac 데스크탑 위로 내리는 비, 눈, 낙엽. 날씨 앱이 아니라 날씨 효과입니다.
-- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 모든 링크를 알맞은 브라우저 프로필로.
+- **[Burly](https://www.burly.link/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 모든 링크를 알맞은 브라우저 프로필로.
 - **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Slack 스타일 :emoji: 자동 완성을 Mac 어디서나.
 - **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 에이전트만이 아니라 일 전체를 조율하세요.
 - **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 받은 편지함을 지킵니다.

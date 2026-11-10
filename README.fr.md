@@ -228,7 +228,7 @@ Despacer fait partie des produits que [Matt Senter](https://www.mattsenter.com/?
 
 - **[CommandH](https://github.com/MattSenter/commandh)** : Un Cmd+H qui fonctionne aussi sur la dernière app, pour enfin voir votre bureau.
 - **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)** : Pluie, neige et feuilles d’automne sur le bureau de votre Mac. Des effets météo, pas une app météo.
-- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)** : Chaque lien, dans le bon profil de navigateur.
+- **[Burly](https://www.burly.link/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)** : Chaque lien, dans le bon profil de navigateur.
 - **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)** : Autocomplétion d’:emoji: façon Slack, partout sur votre Mac.
 - **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)** : Orchestrer le travail, pas seulement les agents.
 - **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)** : Votre boîte de réception, défendue.

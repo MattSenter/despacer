@@ -28,7 +28,7 @@ struct OtherProjectsView: View {
                 url: "https://www.weatherling.app/from-despacer", image: "weatherling"),
         Project(name: "Burly",
                 summary: String(localized: "Every link, in the right browser profile."),
-                url: "https://www.burly.click/from-despacer", image: "burly"),
+                url: "https://www.burly.link/from-despacer", image: "burly"),
         Project(name: "Comoji",
                 summary: String(localized: "Slack-style :emoji: autocomplete, everywhere on your Mac."),
                 url: "https://www.comoji.io/from-despacer", image: "comoji"),

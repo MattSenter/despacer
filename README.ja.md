@@ -228,7 +228,7 @@ Despacerは、[Senternet](https://www.senter.net/?utm_source=github&utm_medium=r
 
 - **[CommandH](https://github.com/MattSenter/commandh)**: 最後のアプリにも Cmd+H が効く。ようやくデスクトップが見えます。
 - **[Weatherling](https://www.weatherling.app/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Mac のデスクトップに雨、雪、秋の落ち葉を。天気予報アプリではなく、天気エフェクトです。
-- **[Burly](https://www.burly.click/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: すべてのリンクを、正しいブラウザプロファイルへ。
+- **[Burly](https://www.burly.link/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: すべてのリンクを、正しいブラウザプロファイルへ。
 - **[Comoji](https://www.comoji.io/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: Slack 風の :emoji: 補完を、Mac のどこでも。
 - **[Orgabot](https://www.orga.bot/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: エージェントだけでなく、仕事そのものを束ねる。
 - **[Premail](https://www.premail.pro/?utm_source=github&utm_medium=readme&utm_campaign=despacer&utm_content=other-projects)**: 受信トレイを、守る。
